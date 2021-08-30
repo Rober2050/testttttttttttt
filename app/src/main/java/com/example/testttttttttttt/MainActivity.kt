@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             val txt = findViewById<TextView>(R.id.txtSaludo)
             txt.text="Se pulso el botón"
             Log.d(tag, "Boton pulsado test ")
+            println("Agregado por DevTest")
         }
 
         Log.d(tag, "Paso por OnCreate")
