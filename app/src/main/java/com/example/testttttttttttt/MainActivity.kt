@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener{
             val txt = findViewById<TextView>(R.id.txtSaludo)
             txt.text="Se pulso el botón"
-            Log.d(tag, "Boton pulsado ")
+            Log.d(tag, "Boton pulsado test ")
         }
 
         Log.d(tag, "Paso por OnCreate")
