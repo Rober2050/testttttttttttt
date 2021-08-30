@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val btn= findViewById<Button>(R.id.btnTest)
+        val btn=  findViewById<Button>(R.id.btnTest)
         btn.setOnClickListener{
             val txt = findViewById<TextView>(R.id.txtSaludo)
             txt.text="Se pulso el botón"
-            Log.d(tag, "Boton pulsado")
+            Log.d(tag, "Boton pulsado ")
         }
 
         Log.d(tag, "Paso por OnCreate")
